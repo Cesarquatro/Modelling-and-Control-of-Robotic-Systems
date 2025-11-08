@@ -48,4 +48,4 @@ disp("São iguais.")
 
 disp('(d) Determine o quatérnio unitário equivalente');
 disp('utilizando UnitQuaternion:');
-Q = UnitQuaternion(R_expm) % As Matrizes são iguais
+Q = UnitQuaternion(R_expm); % Pode usar qualquer uma das três matrizes

@@ -1,0 +1,13 @@
+clear; clc; close all
+%  Cesar Augusto Mendes Cordeiro da Silva
+%  RA: 211270121
+%% Exercício 1: Cubo Rotativo (Animação)
+%  a) Escreva uma função para plotar as arestas de um cubo centrado 
+%     na origem.
+
+%% b) Modifique a função para aceitar como argumento uma transformação ho-
+%     mogênea a ser aplicada aos v ́ertices do cubo antes do plot.
+
+%% c) Anime a rotação em torno do eixo x.
+
+%% d) Anime a rotação em torno de todos os eixos.

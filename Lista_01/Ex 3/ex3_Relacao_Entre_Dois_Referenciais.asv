@@ -1,0 +1,24 @@
+clear; clc; close all
+%  Cesar Augusto Mendes Cordeiro da Silva
+%  RA: 211270121
+%  Exercício 3: Relação Entre Dois Referenciais
+
+%% (a) Crie duas matrizes de rotação diferentes (2D ou 3D), representando 
+% os frames f_{A} e f_{B}.
+
+% ^A R_B: leva vetores expressos no frame B para o frame A (orientação de 
+% B vista por A). Para rotações puras, R^{-1} = R^T.
+A_R_B = RA' * RB;   % ^A R_B = R_A^T R_B
+B_R_A = RB' * RA;   % ^B R_A = R_B^T R_A = (^A R_B)^T
+
+disp('^A R_B (rotação de B em relação a A):');
+disp(A_R_B);
+disp('^B R_A (rotação de A em relação a B):');
+disp(B_R_A);
+
+
+%% (b) Determine as matrizes $^AR_B$ e $^BR_A$.
+
+%% (c) Expresse cada rotação como eixo-ângulo.
+
+%% (d) Expresse tamb ́em como um twist.
